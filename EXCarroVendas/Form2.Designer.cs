@@ -31,12 +31,12 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.menuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.calculadoraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.calcularLoopsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.competiçãoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.OpenCarro = new System.Windows.Forms.ToolStripMenuItem();
             this.salarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.calcularLoopsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -72,6 +72,13 @@
             this.calculadoraToolStripMenuItem.Text = "Calculadora";
             this.calculadoraToolStripMenuItem.Click += new System.EventHandler(this.calculadoraToolStripMenuItem_Click);
             // 
+            // calcularLoopsToolStripMenuItem
+            // 
+            this.calcularLoopsToolStripMenuItem.Name = "calcularLoopsToolStripMenuItem";
+            this.calcularLoopsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.calcularLoopsToolStripMenuItem.Text = "CalcularLoops";
+            this.calcularLoopsToolStripMenuItem.Click += new System.EventHandler(this.calcularLoopsToolStripMenuItem_Click_1);
+            // 
             // competiçãoToolStripMenuItem
             // 
             this.competiçãoToolStripMenuItem.Name = "competiçãoToolStripMenuItem";
@@ -104,12 +111,6 @@
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
             this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
-            // 
-            // calcularLoopsToolStripMenuItem
-            // 
-            this.calcularLoopsToolStripMenuItem.Name = "calcularLoopsToolStripMenuItem";
-            this.calcularLoopsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.calcularLoopsToolStripMenuItem.Text = "CalcularLoops";
             // 
             // PgMenu
             // 

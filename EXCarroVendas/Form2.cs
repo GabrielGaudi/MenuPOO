@@ -60,7 +60,13 @@ namespace EXCarroVendas
 
         private void CalcularLoopsToolStripMenuItem_Click(object sender, EventArgs e)
         {
+        
+        }
+
+        private void calcularLoopsToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
             this.Hide();
+            Form5 tela = new Form5();
             tela.Show();
         }
     }
